@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrewQ - Rowing Position Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="logo">CrewQ</div>
+        <div class="subtitle">Which rowing position are you?</div>
+        
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+
+        <div class="question active" data-question="1">
+            <h2>When training on the erg, what's your typical approach?</h2>
+            <div class="options">
+                <button class="option">I'm always watching my split times and setting the pace</button>
+                <button class="option">I focus on perfecting my technique and efficiency</button>
+                <button class="option">I match whatever pace is set and maintain it consistently</button>
+                <button class="option">I prefer coaching others on their form than erging myself</button>
+            </div>
+        </div>
+
+        <div class="question" data-question="2">
+            <h2>During a race, what's going through your mind?</h2>
+            <div class="options">
+                <button class="option">Setting the perfect rhythm for my crew</button>
+                <button class="option">Maintaining power and following the person in front</button>
+                <button class="option">Staying aware of our surroundings and boat position</button>
+                <button class="option">Strategic planning and monitoring other crews</button>
+            </div>
+        </div>
+
+        <div class="question" data-question="3">
+            <h2>How do you handle pressure situations?</h2>
+            <div class="options">
+                <button class="option">I thrive on it - others look to me for leadership</button>
+                <button class="option">I stay focused on my role and trust my training</button>
+                <button class="option">I remain calm and adapt to changing conditions</button>
+                <button class="option">I become more vocal and take charge</button>
+            </div>
+        </div>
+
+        <div class="question" data-question="4">
+            <h2>What's your strongest attribute in the boat?</h2>
+            <div class="options">
+                <button class="option">Raw power and consistency</button>
+                <button class="option">Setting rhythm and leading by example</button>
+                <button class="option">Technical precision and adaptability</button>
+                <button class="option">Communication and strategic thinking</button>
+            </div>
+        </div>
+
+        <div class="question" data-question="5">
+            <h2>How do you prefer to communicate in the boat?</h2>
+            <div class="options">
+                <button class="option">Constantly - giving feedback and encouragement</button>
+                <button class="option">Through my rowing - letting my pace do the talking</button>
+                <button class="option">Selectively - calling out important observations</button>
+                <button class="option">Minimally - focusing on following orders</button>
+            </div>
+        </div>
+
+        <div class="result" style="display: none;">
+            <h2>Your Ideal Rowing Position:</h2>
+            <p class="position-result"></p>
+            <button class="restart-btn">Take Quiz Again</button>
+        </div>
+    </div>
+
+    <footer>
+        Created by Lauren :) • <a href="https://x.com/laurenap_" target="_blank">@laurenap_</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
