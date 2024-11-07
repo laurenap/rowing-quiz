@@ -4,7 +4,7 @@ A interactive quiz that helps rowers discover their ideal rowing position based 
 
 ## 🎯 Live Demo
 
-Check out the quiz here: [CrewQ Quiz](https://YOUR-USERNAME.github.io/rowing-quiz)
+Check out the quiz here: [CrewQ Quiz](https://laurenap.github.io/rowing-quiz)
 
 ## ✨ Features
 
@@ -31,7 +31,7 @@ To run this project locally:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/rowing-quiz.git
+git clone https://github.com/laurenap/rowing-quiz.git
 ```
 
 2. Navigate to the project directory:
